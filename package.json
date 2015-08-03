@@ -1,0 +1,13 @@
+{
+  "name": "PolymerSample",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-configs": "^0.4.3",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PolymerSample",
+  "version": "0.0.0",
+  "authors": [
+    "Fumio SAGAWA <fumio.sagawa@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.ashiras.xyz/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "google-map": "~1.0.3"
+  }
+}
