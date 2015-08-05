@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <!-- bower:css -->
-  <!-- endbower -->  
+  <!-- endbower --> 
   <style>
-  google-map {
-    height: 600px;
-  }
+      html,body {margin: 0; padding: 0; height: 100%; width: 100%;}
   </style>
 </head>
 <body>
 
   <!-- Import element -->
-  <link rel="import" href="bower_components/google-map/google-map.html">
+  <link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+  <link rel="import" href="components/my-calculator/my-calculator.html">
 
   <!-- Use element -->
-  <google-map latitude="37.790" longitude="-122.390"></google-map>
+  <my-calculator></my-calculator>
 
   <!-- bower:js -->
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <!-- endbower -->
+
 </body>
 </html>

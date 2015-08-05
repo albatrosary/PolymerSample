@@ -21,7 +21,7 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig(configs);
 
-  grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
+  grunt.registerTask('serve', function (target) {
     grunt.task.run([
       'wiredep',
       'browserSync:dev',
